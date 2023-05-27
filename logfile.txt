@@ -1,0 +1,4822 @@
+
+> Tinderclone@0.0.1 ios
+> react-native run-ios --simulator="iPhone 14"
+
+info Found Xcode workspace "Tinderclone.xcworkspace"
+info Building (using "xcodebuild -workspace Tinderclone.xcworkspace -configuration Debug -scheme Tinderclone -destination id=A59255D2-6464-4AAC-B168-EECE53A33C77")
+▸ Copying /Users/ericf/Library/Developer/Xcode/DerivedData/Tinderclone-boobdrkkkoexlfdnxwruwfqqkasj/Build/Products/Debug-iphonesimulator/React-Core/AccessibilityResources.bundle/en.lproj
+▸ Running script '[CP] Copy XCFrameworks'
+▸ Compiling RequestResponseResponder.cpp
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:68:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it replaces the "current"
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:96:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:112:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:128:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:140:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:154:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:167:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:179:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated event_set() is not recommended for new code, because it requires
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:210:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:211:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:219:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:220:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:42:5: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+   @deprecated This function is deprecated because its behavior is not correct
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it clears all previous
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:205:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev an existing bufferevent allocated with
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:207:11: parameter 'addr' not found in the function declaration [-Wdocumentation]
+
+   @param addr the address we should connect to
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:208:11: parameter 'socklen' not found in the function declaration [-Wdocumentation]
+
+   @param socklen The length of the address
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:219:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev An existing bufferevent allocated with bufferevent_socket_new()
+          ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:220:11: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+   @param evdns_base Optionally, an evdns_base to use for resolving hostnames
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:222:11: parameter 'family' not found in the function declaration [-Wdocumentation]
+
+   @param family A preferred address family to resolve addresses to, or
+          ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:225:11: parameter 'hostname' not found in the function declaration [-Wdocumentation]
+
+   @param hostname The hostname to resolve; see below for notes on recognized
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:227:11: parameter 'port' not found in the function declaration [-Wdocumentation]
+
+   @param port The port to connect to on the resolved address.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:646:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:659:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:689:12: parameter 'limit' not found in the function declaration [-Wdocumentation]
+
+    @param limit A suggested upper bound of bytes to write to dst.
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent_compat.h:59:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the current
+           ^~~~~
+
+
+▸ Compiling RequestResponseRequester.cpp
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:68:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it replaces the "current"
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:96:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:112:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:128:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:140:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:154:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:167:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:179:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated event_set() is not recommended for new code, because it requires
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:210:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:211:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:219:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:220:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:42:5: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+   @deprecated This function is deprecated because its behavior is not correct
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it clears all previous
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:205:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev an existing bufferevent allocated with
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:207:11: parameter 'addr' not found in the function declaration [-Wdocumentation]
+
+   @param addr the address we should connect to
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:208:11: parameter 'socklen' not found in the function declaration [-Wdocumentation]
+
+   @param socklen The length of the address
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:219:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev An existing bufferevent allocated with bufferevent_socket_new()
+          ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:220:11: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+   @param evdns_base Optionally, an evdns_base to use for resolving hostnames
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:222:11: parameter 'family' not found in the function declaration [-Wdocumentation]
+
+   @param family A preferred address family to resolve addresses to, or
+          ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:225:11: parameter 'hostname' not found in the function declaration [-Wdocumentation]
+
+   @param hostname The hostname to resolve; see below for notes on recognized
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:227:11: parameter 'port' not found in the function declaration [-Wdocumentation]
+
+   @param port The port to connect to on the resolved address.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:646:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:659:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:689:12: parameter 'limit' not found in the function declaration [-Wdocumentation]
+
+    @param limit A suggested upper bound of bytes to write to dst.
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent_compat.h:59:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the current
+           ^~~~~
+
+
+▸ Compiling Observables.cpp
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:68:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it replaces the "current"
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:96:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:112:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:128:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:140:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:154:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:167:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:179:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated event_set() is not recommended for new code, because it requires
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:210:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:211:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:219:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:220:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:42:5: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+   @deprecated This function is deprecated because its behavior is not correct
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it clears all previous
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:205:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev an existing bufferevent allocated with
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:207:11: parameter 'addr' not found in the function declaration [-Wdocumentation]
+
+   @param addr the address we should connect to
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:208:11: parameter 'socklen' not found in the function declaration [-Wdocumentation]
+
+   @param socklen The length of the address
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:219:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev An existing bufferevent allocated with bufferevent_socket_new()
+          ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:220:11: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+   @param evdns_base Optionally, an evdns_base to use for resolving hostnames
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:222:11: parameter 'family' not found in the function declaration [-Wdocumentation]
+
+   @param family A preferred address family to resolve addresses to, or
+          ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:225:11: parameter 'hostname' not found in the function declaration [-Wdocumentation]
+
+   @param hostname The hostname to resolve; see below for notes on recognized
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:227:11: parameter 'port' not found in the function declaration [-Wdocumentation]
+
+   @param port The port to connect to on the resolved address.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:646:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:659:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:689:12: parameter 'limit' not found in the function declaration [-Wdocumentation]
+
+    @param limit A suggested upper bound of bytes to write to dst.
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent_compat.h:59:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the current
+           ^~~~~
+
+
+▸ Compiling KeepaliveTimer.cpp
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:68:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it replaces the "current"
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:96:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:112:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:128:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:140:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:154:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:167:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:179:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated event_set() is not recommended for new code, because it requires
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:210:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:211:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:219:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:220:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:42:5: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+   @deprecated This function is deprecated because its behavior is not correct
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it clears all previous
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:205:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev an existing bufferevent allocated with
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:207:11: parameter 'addr' not found in the function declaration [-Wdocumentation]
+
+   @param addr the address we should connect to
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:208:11: parameter 'socklen' not found in the function declaration [-Wdocumentation]
+
+   @param socklen The length of the address
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:219:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev An existing bufferevent allocated with bufferevent_socket_new()
+          ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:220:11: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+   @param evdns_base Optionally, an evdns_base to use for resolving hostnames
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:222:11: parameter 'family' not found in the function declaration [-Wdocumentation]
+
+   @param family A preferred address family to resolve addresses to, or
+          ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:225:11: parameter 'hostname' not found in the function declaration [-Wdocumentation]
+
+   @param hostname The hostname to resolve; see below for notes on recognized
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:227:11: parameter 'port' not found in the function declaration [-Wdocumentation]
+
+   @param port The port to connect to on the resolved address.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:646:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:659:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:689:12: parameter 'limit' not found in the function declaration [-Wdocumentation]
+
+    @param limit A suggested upper bound of bytes to write to dst.
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent_compat.h:59:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the current
+           ^~~~~
+
+
+▸ Compiling Flowables.cpp
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:68:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it replaces the "current"
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:96:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:112:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:128:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:140:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:154:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:167:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:179:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated event_set() is not recommended for new code, because it requires
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:210:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:211:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:219:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:220:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:42:5: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+   @deprecated This function is deprecated because its behavior is not correct
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it clears all previous
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:205:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev an existing bufferevent allocated with
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:207:11: parameter 'addr' not found in the function declaration [-Wdocumentation]
+
+   @param addr the address we should connect to
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:208:11: parameter 'socklen' not found in the function declaration [-Wdocumentation]
+
+   @param socklen The length of the address
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:219:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev An existing bufferevent allocated with bufferevent_socket_new()
+          ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:220:11: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+   @param evdns_base Optionally, an evdns_base to use for resolving hostnames
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:222:11: parameter 'family' not found in the function declaration [-Wdocumentation]
+
+   @param family A preferred address family to resolve addresses to, or
+          ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:225:11: parameter 'hostname' not found in the function declaration [-Wdocumentation]
+
+   @param hostname The hostname to resolve; see below for notes on recognized
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:227:11: parameter 'port' not found in the function declaration [-Wdocumentation]
+
+   @param port The port to connect to on the resolved address.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:646:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:659:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:689:12: parameter 'limit' not found in the function declaration [-Wdocumentation]
+
+    @param limit A suggested upper bound of bytes to write to dst.
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent_compat.h:59:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the current
+           ^~~~~
+
+
+▸ Compiling RequestResponseThroughputTcp.cpp
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:68:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it replaces the "current"
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:96:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:112:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:128:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:140:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:154:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:167:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:179:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated event_set() is not recommended for new code, because it requires
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:210:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:211:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:219:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:220:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:42:5: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+   @deprecated This function is deprecated because its behavior is not correct
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it clears all previous
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:205:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev an existing bufferevent allocated with
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:207:11: parameter 'addr' not found in the function declaration [-Wdocumentation]
+
+   @param addr the address we should connect to
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:208:11: parameter 'socklen' not found in the function declaration [-Wdocumentation]
+
+   @param socklen The length of the address
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:219:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev An existing bufferevent allocated with bufferevent_socket_new()
+          ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:220:11: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+   @param evdns_base Optionally, an evdns_base to use for resolving hostnames
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:222:11: parameter 'family' not found in the function declaration [-Wdocumentation]
+
+   @param family A preferred address family to resolve addresses to, or
+          ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:225:11: parameter 'hostname' not found in the function declaration [-Wdocumentation]
+
+   @param hostname The hostname to resolve; see below for notes on recognized
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:227:11: parameter 'port' not found in the function declaration [-Wdocumentation]
+
+   @param port The port to connect to on the resolved address.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:646:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:659:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:689:12: parameter 'limit' not found in the function declaration [-Wdocumentation]
+
+    @param limit A suggested upper bound of bytes to write to dst.
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent_compat.h:59:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the current
+           ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Flipper-Folly/folly/Benchmark.h:119:10: inline variables are a C++17 extension [-Wc++17-extensions]
+
+  static inline constexpr DismissedTag Dismissed{};
+^
+
+
+▸ Compiling React-jsi-dummy.m
+▸ Compiling JSIDynamic.cpp
+▸ Compiling event.c
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+         ^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:68:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it replaces the "current"
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:96:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:112:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:128:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the event base from
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:140:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:154:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is obsolete, and has been replaced by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:167:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it is easily confused by
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event_compat.h:179:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated event_set() is not recommended for new code, because it requires
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:44:11: parameter 'deferred' not found in the function declaration [-Wdocumentation]
+
+   @param deferred The struct event_callback structure to initialize.
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:45:11: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+   @param priority The priority that the callback should run at.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:46:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+   @param cb The function to run when the struct event_callback executes.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:47:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg The function's second argument.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/thread.h:187:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base the event base for which to set the id function
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/iocp-internal.h:106:12: parameter 'overlapped' not found in the function declaration [-Wdocumentation]
+
+    @param overlapped The struct event_overlapped to initialize
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/event.c:1056:11: code will never be executed [-Wunreachable-code]
+
+                        res = -1;
+           ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/event.c:2515:6: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+
+        r = write(base->th_notify_fd[1], buf, 1);
+                               ^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/event.c:3017:3: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+
+                EVUTIL_FALLTHROUGH;
+          ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/event.c:230:1: unused function 'event_debug_map_HT_REPLACE' [-Wunused-function]
+
+HT_PROTOTYPE(event_debug_map, event_debug_entry, node, hash_debug_entry,
+                           ^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/event.c:230:1: unused function 'event_debug_map_HT_FOREACH_FN' [-Wunused-function]
+
+In file included from /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/event.c:72:
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/event.c:230:1: unused function 'event_debug_map_HT_NEXT' [-Wunused-function]
+
+In file included from /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/event.c:72:
+^
+
+
+▸ Compiling evdns.c
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns.h:252:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any of EVDNS_BASE_INITIALIZE_NAMESERVERS|
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns.h:268:10: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+  @param evdns_base the evdns base to free
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns.h:280:11: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+   @param evdns_base the evdns base to remove outdated host addresses from
+         ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns.h:616:11: parameter 'req' not found in the function declaration [-Wdocumentation]
+
+   @param req A newly received request
+          ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns.h:617:11: parameter 'user_data' not found in the function declaration [-Wdocumentation]
+
+   @param user_data A pointer that was passed to
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:61:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it always uses the current
+          ^~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:78:5: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+   @deprecated This function is deprecated because use of the global
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:91:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:108:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:127:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:142:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:158:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:174:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:187:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:220:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:237:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:258:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:284:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:301:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:311:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:326:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/dns_compat.h:338:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it does not allow the
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/thread.h:187:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base the event base for which to set the id function
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:44:11: parameter 'deferred' not found in the function declaration [-Wdocumentation]
+
+   @param deferred The struct event_callback structure to initialize.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:45:11: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+   @param priority The priority that the callback should run at.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:46:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+   @param cb The function to run when the struct event_callback executes.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:47:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg The function's second argument.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/evdns.c:1394:17: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+
+                const int r = recvfrom(ns->socket, (void*)packet,
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/evdns.c:1432:7: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+
+                r = recvfrom(s->socket, (void*)packet, sizeof(packet), 0,
+                          ~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/evdns.c:1454:11: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+
+                int r = sendto(port->socket, req->response, (int)req->response_len, 0,
+                  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/evdns.c:1580:28: implicit conversion loses integer precision: 'const off_t' (aka 'const long long') to 'int' [-Wshorten-64-to-32]
+
+                        return table->labels[i].pos;
+                    ~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/evdns.c:2017:6: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+
+        r = sendto(port->socket, req->response, (int)req->response_len, 0,
+                        ~~~~~~ ~~~~~~~~~~~~~~~~~^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/evdns.c:2232:6: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+
+        r = sendto(server->socket, (void*)req->request, req->request_len, 0,
+          ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/evdns.c:2607:24: implicit conversion loses integer precision: 'unsigned long' to 'in_addr_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+
+        sin.sin_addr.s_addr = address;
+          ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/evdns.c:3389:16: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+
+        const int r = strtol(str, &endptr, 10);
+                            ~ ^~~~~~~
+
+
+▸ Compiling bufferevent.c
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:210:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+                  ~   ^~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:211:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:219:11: parameter 'buffer' not found in the function declaration [-Wdocumentation]
+
+ * @param buffer the evbuffer that the callback is watching.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer.h:220:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+ * @param cb the callback whose status we want to change.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:42:5: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+   @deprecated This function is deprecated because its behavior is not correct
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/buffer_compat.h:82:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it clears all previous
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:205:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev an existing bufferevent allocated with
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:207:11: parameter 'addr' not found in the function declaration [-Wdocumentation]
+
+   @param addr the address we should connect to
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:208:11: parameter 'socklen' not found in the function declaration [-Wdocumentation]
+
+   @param socklen The length of the address
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:219:11: parameter 'bufev' not found in the function declaration [-Wdocumentation]
+
+   @param bufev An existing bufferevent allocated with bufferevent_socket_new()
+          ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:220:11: parameter 'evdns_base' not found in the function declaration [-Wdocumentation]
+
+   @param evdns_base Optionally, an evdns_base to use for resolving hostnames
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:222:11: parameter 'family' not found in the function declaration [-Wdocumentation]
+
+   @param family A preferred address family to resolve addresses to, or
+          ^~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:225:11: parameter 'hostname' not found in the function declaration [-Wdocumentation]
+
+   @param hostname The hostname to resolve; see below for notes on recognized
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:227:11: parameter 'port' not found in the function declaration [-Wdocumentation]
+
+   @param port The port to connect to on the resolved address.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:646:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:659:17: empty paragraph passed to '@param' command [-Wdocumentation]
+
+   @param options
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent.h:689:12: parameter 'limit' not found in the function declaration [-Wdocumentation]
+
+    @param limit A suggested upper bound of bytes to write to dst.
+   ~~~~~~~~~~~~~^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/bufferevent_compat.h:59:4: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+
+  @deprecated This function is deprecated because it uses the current
+           ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:366:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event_base structure returned by event_base_new() or
+^
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:378:9: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+ @param eb the event_base structure returned by event_base_new()
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:435:11: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+   @param eb the event_base structure returned by event_base_new()
+        ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:436:11: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+   @param flags a bitwise combination of the kinds of events to aggregate
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:447:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+          ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:448:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags a bitwise combination of the kinds of events to aggregate
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:450:10: parameter 'clear' not found in the function declaration [-Wdocumentation]
+
+  @param clear option used to reset the maximum count.
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:672:10: parameter 'cfg' not found in the function declaration [-Wdocumentation]
+
+  @param cfg the event configuration object
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:689:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb an event_base to be freed
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:782:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event base
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:783:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev the event
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:817:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new() or
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:819:10: parameter 'flags' not found in the function declaration [-Wdocumentation]
+
+  @param flags any combination of EVLOOP_ONCE | EVLOOP_NONBLOCK
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:837:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:838:10: parameter 'tv' not found in the function declaration [-Wdocumentation]
+
+  @param tv the amount of time after which the loop should terminate,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:855:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:875:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:888:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:903:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_init()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1008:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd An fd or signal
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1009:11: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+   @param events One or more EV_* flags
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1010:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg A user-supplied argument.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1078:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which the event should be attached.
+          ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1079:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor or signal to be monitored, or -1.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1080:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor: bitfield of EV_READ, EV_WRITE,
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1082:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1083:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1119:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be modified
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1120:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base the event base to which ev should be attached.
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1121:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd the file descriptor to be monitored
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1122:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events desired events to monitor; can be EV_READ and/or EV_WRITE
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1123:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1124:10: parameter 'callback_arg' not found in the function declaration [-Wdocumentation]
+
+  @param callback_arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1197:10: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+  @param base an event_base
+         ^~~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1198:10: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+  @param fd a file descriptor to monitor, or -1 for no fd.
+         ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1199:10: parameter 'events' not found in the function declaration [-Wdocumentation]
+
+  @param events event(s) to monitor; can be any of EV_READ |
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1201:10: parameter 'callback' not found in the function declaration [-Wdocumentation]
+
+  @param callback callback function to be invoked when the event occurs
+         ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1202:10: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+  @param arg an argument to be passed to the callback function
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1203:10: parameter 'timeout' not found in the function declaration [-Wdocumentation]
+
+  @param timeout the maximum amount of time to wait for the event. NULL
+         ^~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1254:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct to be removed from the working set
+         ^~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1463:10: parameter 'eb' not found in the function declaration [-Wdocumentation]
+
+  @param eb the event_base structure returned by event_base_new()
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1464:10: parameter 'npriorities' not found in the function declaration [-Wdocumentation]
+
+  @param npriorities the maximum number of priorities
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1484:10: parameter 'ev' not found in the function declaration [-Wdocumentation]
+
+  @param ev an event struct
+         ^~~~~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1485:10: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+  @param priority the new priority to be assigned
+         ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1555:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base An event_base on which to scan the events.
+         ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1556:11: parameter 'output' not found in the function declaration [-Wdocumentation]
+
+   @param output A stdio file to write on.
+          ^~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/event.h:1582:11: parameter 'fd' not found in the function declaration [-Wdocumentation]
+
+   @param fd The signal to active events on.
+          ^~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:44:11: parameter 'deferred' not found in the function declaration [-Wdocumentation]
+
+   @param deferred The struct event_callback structure to initialize.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:45:11: parameter 'priority' not found in the function declaration [-Wdocumentation]
+
+   @param priority The priority that the callback should run at.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:46:11: parameter 'cb' not found in the function declaration [-Wdocumentation]
+
+   @param cb The function to run when the struct event_callback executes.
+          ^~~~~~~~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/defer-internal.h:47:11: parameter 'arg' not found in the function declaration [-Wdocumentation]
+
+   @param arg The function's second argument.
+          ^~
+
+
+
+⚠️  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/libevent/include/event2/thread.h:187:11: parameter 'base' not found in the function declaration [-Wdocumentation]
+
+   @param base the event base for which to set the id function
+          ^~~
+
+
+▸ Compiling Yoga\ 2.cpp
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:19:5: redefinition of 'YGAlign'
+
+    YGAlign,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:20:5: redefinition of enumerator 'YGAlignAuto'
+
+    YGAlignAuto,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:21:5: redefinition of enumerator 'YGAlignFlexStart'
+
+    YGAlignFlexStart,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:22:5: redefinition of enumerator 'YGAlignCenter'
+
+    YGAlignCenter,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:23:5: redefinition of enumerator 'YGAlignFlexEnd'
+
+    YGAlignFlexEnd,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:24:5: redefinition of enumerator 'YGAlignStretch'
+
+    YGAlignStretch,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:25:5: redefinition of enumerator 'YGAlignBaseline'
+
+    YGAlignBaseline,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:26:5: redefinition of enumerator 'YGAlignSpaceBetween'
+
+    YGAlignSpaceBetween,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:27:5: redefinition of enumerator 'YGAlignSpaceAround'
+
+    YGAlignSpaceAround)
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:30:5: redefinition of 'YGDimension'
+
+    YGDimension,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:31:5: redefinition of enumerator 'YGDimensionWidth'
+
+    YGDimensionWidth,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:32:5: redefinition of enumerator 'YGDimensionHeight'
+
+    YGDimensionHeight)
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:35:5: redefinition of 'YGDirection'
+
+    YGDirection,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:36:5: redefinition of enumerator 'YGDirectionInherit'
+
+    YGDirectionInherit,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:37:5: redefinition of enumerator 'YGDirectionLTR'
+
+    YGDirectionLTR,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:38:5: redefinition of enumerator 'YGDirectionRTL'
+
+    YGDirectionRTL)
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:41:5: redefinition of 'YGDisplay'
+
+    YGDisplay,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:42:5: redefinition of enumerator 'YGDisplayFlex'
+
+    YGDisplayFlex,
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h:43:5: redefinition of enumerator 'YGDisplayNone'
+
+    YGDisplayNone)
+        ^
+
+
+
+❌  /Users/ericf/Desktop/code/react/tes/Tinderclone/ios/Pods/Headers/Public/YogaKit/YGLayout.h:9:9: could not build module 'yoga'
+
+#import <yoga/YGEnums.h>
+        ^
+
+
+▸ Compiling YGStyle\ 2.cpp
+▸ Compiling YGNodePrint\ 2.cpp
+▸ Compiling YGNode\ 2.cpp
+▸ Building library liblibevent.a
+▸ Compiling YGLayout\ 2.cpp
+    Run script build phase 'Bundle React Native code and images' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'Tinderclone' from project 'Tinderclone')
+    Run script build phase 'Start Packager' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'Tinderclone' from project 'Tinderclone')
