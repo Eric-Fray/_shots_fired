@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, StyleSheet, SafeAreaView, Pressable } from 'react-native'; 
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import HomeScreen from './src/screens/HomeScreen';
@@ -9,12 +9,11 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import { Amplify, Analytics } from 'aws-amplify';
+import { Amplify, Analytics, Hub } from 'aws-amplify';
 import { withAuthenticator } from 'aws-amplify-react-native';
 import config from './src/aws-exports';
 
 Analytics.disable();
-
 Amplify.configure(config);
 
 
@@ -28,6 +27,14 @@ const App = () => {
 
   const color = "#b5b5b5";
   const activeColor = '#F76C6B';
+
+  useEffect(() => {
+    const listener = Hub.listen('datastore', (data) => {
+      const { payload } = data;
+      this.onAuthEvent(payload);           
+      console.log('A new auth event has happened: ', data.payload.data.username + ' has ' + data.payload.event);
+    })
+  }, []);
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <SafeAreaView style={styles.root}>

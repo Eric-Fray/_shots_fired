@@ -12,14 +12,15 @@ const ProfileScreen = () => {
     const [bio, setBio] = useState('');
     const [gender, setGender] = useState('');
     const [lookingFor, setLookingFor] = useState('');
+
     useEffect(() => {
         const getCurrentUser = async () => {
-            const user = await Auth.currentAuthenticatedUser();
-            console.warn(user);
+            const authUser = await Auth.currentAuthenticatedUser();
+            console.warn(authUser);
             const dbUsers = await DataStore.query(
                 User, 
-                (u) => u.sub.eq(user.attributes.sub))
-            if (dbUsers.length <= 0) {
+                (u) => u.sub.eq(authUser.attributes.sub))
+            if (!dbUsers || dbUsers.length === 0) {
                 console.warn('27: No user');
                 return;
             };
@@ -30,7 +31,6 @@ const ProfileScreen = () => {
             setBio(dbUser.bio);
             setGender(dbUser.gender);
             setLookingFor(dbUser.lookingFor);
-            console.warn('36: Deteced user bio - ', dbUser.bio);
         };
         getCurrentUser();
     }, []);
@@ -79,6 +79,10 @@ const ProfileScreen = () => {
 
     }
 
+    const signOut = async () => {
+        await DataStore.clear();
+        Auth.signOut()
+    }
 
     return (
         <SafeAreaView style={styles.root}>
@@ -122,7 +126,7 @@ const ProfileScreen = () => {
                 <Pressable style={styles.button} onPress={save}>
                     <Text>Save</Text>
                 </Pressable>
-                <Pressable style={styles.button} onPress={() => Auth.signOut()}>
+                <Pressable style={styles.button} onPress={signOut}>
                     <Text>Sign Out</Text>
                 </Pressable>
             </View>
