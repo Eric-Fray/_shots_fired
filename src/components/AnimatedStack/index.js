@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {View, StyleSheet, useWindowDimensions} from 'react-native'; 
+import {View, StyleSheet, useWindowDimensions, Text} from 'react-native'; 
 import Animated, { 
   useSharedValue, 
   useAnimatedStyle,
@@ -18,7 +18,7 @@ const SWIPE_VELOCITY = 800;
 
 const AnimatedStack = props => {
 
-  const { data, renderItem, onSwipeRight, onSwipeLeft } = props;
+  const { data, renderItem, onSwipeRight, onSwipeLeft, setCurrentUser } = props;
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [nextIndex, setNextIndex] = useState(currentIndex + 1);
@@ -77,7 +77,7 @@ const AnimatedStack = props => {
         () => runOnJS(setCurrentIndex)(currentIndex + 1));
       
       const onSwipe = event.velocityX > 0 ? onSwipeRight : onSwipeLeft;
-      onSwipe && runOnJS(onSwipe)(currentProfile);
+      onSwipe && runOnJS(onSwipe)();
     }
   });
 
@@ -85,6 +85,10 @@ const AnimatedStack = props => {
     translateX.value = 0;
     setNextIndex(currentIndex + 1);
     }, [currentIndex, translateX]);
+
+  useEffect(() => {
+    setCurrentUser(currentProfile);
+  }, [currentProfile, setCurrentUser])
 
   return (
       <View style={styles.root}>
@@ -95,14 +99,19 @@ const AnimatedStack = props => {
           </Animated.View>
         </View>
       )}
-        {currentProfile && (
+        {currentProfile ? (
           <PanGestureHandler onGestureEvent={gestureHandler}>
-            <Animated.View collapsable={false} style={[styles.animatedCard, cardStyle]}>
+            {/* <Animated.View collapsable={false} style={[styles.animatedCard, cardStyle]}> ***Look into collapsable */}
+            <Animated.View style={[styles.animatedCard, cardStyle]}>
               <Animated.Image source={Like} style={[styles.like, {left: 10}, likeStyle]} resizeMode="contain"/>
               <Animated.Image source={Nope} style={[styles.like, {right: 10}, nopeStyle]} resizeMode="contain"/>
               {renderItem({ item: currentProfile })}
             </Animated.View>
           </PanGestureHandler>
+        ) : (
+          <View>
+            <Text>Oops, no more folks here</Text>
+          </View>
         )}
       </View>
     );

@@ -1,31 +1,98 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {View, StyleSheet} from 'react-native'; 
 import Card from '../components/TinderCard';
 import AnimatedStack from '../components/AnimatedStack';
-import users from '../../assets/data/users';
 import Entypo from 'react-native-vector-icons/Entypo';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import { DataStore } from '@aws-amplify/datastore';
+import { Auth } from 'aws-amplify'
+import { User } from '../models';
+import { Match } from '../models';
 
 Entypo.loadFont().catch((error) => { console.info(error); });
 Ionicons.loadFont().catch((error) => { console.info(error); });
 FontAwesome.loadFont().catch((error) => { console.info(error); });
 
 const HomeScreen = () => {
+    const[users, setUsers] = useState([]);
+    const[currentUser, setCurrentUser] = useState(null);
+    const [me, setMe] = useState(null);
+
+    useEffect(() => {
+        const getCurrentUser = async () => {
+            const user = await Auth.currentAuthenticatedUser();
+            const dbUsers = await DataStore.query(
+                User, 
+                (u) => u.sub.eq(user.attributes.sub))
+            if (dbUsers.length <= 0) {
+                return;
+            };
+            setMe(dbUsers[0]);
+        };
+        getCurrentUser();
+    }, []);
+
+    useEffect(() => {
+        const fetchUsers = async () => {
+            setUsers(await DataStore.query(User));
+        };
+        fetchUsers();
+    }, []);
+
     const onSwipeLeft = user => {
-        console.warn('swipe left: ', user.name);
+        if (!currentUser || !me){
+            return;
+        }
     };
-    const onSwipeRight = user => {
-        console.warn('swipe right: ', user.name);
+    const onSwipeRight = async () => {
+        if (!currentUser || !me){
+            return;
+        }
+
+        const myMatches = await DataStore.query(
+            Match, 
+            (match) => match.and(match =>[
+            match.User1ID.eq(me.id), 
+            match.User2ID.eq(currentUser.id)
+        ]));
+
+        if (myMatches.length > 0) {
+            console.warn("ALREADY LIKED");
+            return;
+        }
+
+        const theirMatches = await DataStore.query(
+            Match, 
+            (match) => match.and(match =>[
+            match.User1ID.eq(me.id), 
+            match.User2ID.eq(currentUser.id)
+        ]));
+
+        if (theirMatches.length > 0) {
+            console.warn("NEW MATCH!");
+            const theirMatch = theirMatches[0];
+            DataStore.save(Match.copyOf(theirMatch, updated => (updated.isMatch = true)),
+            );
+            return;
+        }
+
+        DataStore.save(new Match({
+            User1ID: me.id,
+            User2ID: currentUser.id,
+            isMatch: false,
+        }))
     };
     return (
       <View style={styles.pageContainer}>
-        <AnimatedStack
+        {users.length > 0 && (<AnimatedStack
           data={users}
           renderItem={({item}) => <Card user={item} />}
+          setCurrentUser={setCurrentUser}
           onSwipeLeft={onSwipeLeft}
           onSwipeRight={onSwipeRight} 
         />
+        )}
         <View style={styles.icons}>
             <View style={styles.buttons}>
                 <FontAwesome name="undo" size={30} color="#FBD88B" />
@@ -49,8 +116,8 @@ const HomeScreen = () => {
             
         </View>
       </View>
-    );
-  };
+    //);
+  )};
 
 const styles = StyleSheet.create ({
     pageContainer: {

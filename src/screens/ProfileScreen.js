@@ -5,8 +5,6 @@ import { Auth } from 'aws-amplify'
 import { Picker } from '@react-native-picker/picker';
 import { User } from '../models/'
 import { DataStore } from '@aws-amplify/datastore';
-//import { Match } from './models';
-//Amplify.Logger.LOG_LEVEL = "DEBUG";
 
 const ProfileScreen = () => {
     const [user, setUser] = useState(null);
@@ -17,6 +15,7 @@ const ProfileScreen = () => {
     useEffect(() => {
         const getCurrentUser = async () => {
             const user = await Auth.currentAuthenticatedUser();
+            console.warn(user);
             const dbUsers = await DataStore.query(
                 User, 
                 (u) => u.sub.eq(user.attributes.sub))
@@ -34,9 +33,6 @@ const ProfileScreen = () => {
             console.warn('36: Deteced user bio - ', dbUser.bio);
         };
         getCurrentUser();
-        if (user != null){
-            console.warn('37: Bio was set to - ', user.bio);
-        };
     }, []);
 
     const isValid = () => {
@@ -64,7 +60,6 @@ const ProfileScreen = () => {
 
         const user = await Auth.currentAuthenticatedUser();
 
-        //return;
             
         const newUser = new User({
             sub: user.attributes.sub,

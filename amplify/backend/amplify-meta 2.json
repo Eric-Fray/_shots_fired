@@ -1,0 +1,96 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-datingapp-staging-175513-authRole",
+      "UnauthRoleArn": "arn:aws:iam::017141015220:role/amplify-datingapp-staging-175513-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::017141015220:role/amplify-datingapp-staging-175513-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-datingapp-staging-175513-deployment",
+      "UnauthRoleName": "amplify-datingapp-staging-175513-unauthRole",
+      "StackName": "amplify-datingapp-staging-175513",
+      "StackId": "arn:aws:cloudformation:us-east-1:017141015220:stack/amplify-datingapp-staging-175513/a2e7ebb0-f800-11ed-bab3-1200ef476347",
+      "AmplifyAppId": "d2l4lyxucu5rq4"
+    }
+  },
+  "api": {
+    "DatingApp": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            }
+          ],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 30,
+              "description": "api key description"
+            },
+            "authenticationType": "API_KEY"
+          }
+        },
+        "GraphQLAPIIdOutput": "rzhcxgsjrnbnhk7qc7z5kupkdy",
+        "GraphQLAPIEndpointOutput": "https://h4ghsp7izjhflco7aud4ouzd7a.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-vlonnjsdpvcshmmhrcasi2a75a"
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync",
+      "lastPushTimeStamp": "2023-05-28T15:14:25.955Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-datingapp-staging-175513-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiDatingApp"
+      },
+      "lastPushDirHash": "1MjNXNY2bsCXFgo1+YRFTRo0TAw="
+    }
+  },
+  "auth": {
+    "DatingApp": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OPTIONAL",
+        "mfaTypes": [
+          "TOTP"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ]
+        },
+        "signupAttributes": [
+          "PHONE_NUMBER",
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "CreatedSNSRole": "arn:aws:iam::017141015220:role/snseac6e1c2175513-staging",
+        "UserPoolId": "us-east-1_k6GOuWhdq",
+        "AppClientIDWeb": "585ss95ucqpkfs72mfkjggcetl",
+        "AppClientID": "1nh0bcj7alt8kentdcod34fb57",
+        "IdentityPoolId": "us-east-1:935dbab9-bc79-48ab-a2e3-dd00e0123dc6",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:017141015220:userpool/us-east-1_k6GOuWhdq",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "DatingApp"
+      },
+      "lastPushTimeStamp": "2023-05-28T15:14:25.770Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-datingapp-staging-175513-deployment/amplify-cfn-templates/auth/DatingApp-cloudformation-template.json",
+        "logicalId": "authDatingApp"
+      }
+    }
+  }
+}
