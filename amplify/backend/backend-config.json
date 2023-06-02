@@ -1,6 +1,6 @@
 {
   "api": {
-    "DatingApp": {
+    "daggerintheroad": {
       "dependsOn": [],
       "output": {
         "authConfig": {
@@ -23,7 +23,7 @@
     }
   },
   "auth": {
-    "DatingApp": {
+    "daggerintheroad": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {

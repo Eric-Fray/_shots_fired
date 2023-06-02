@@ -1,13 +1,13 @@
 export type AmplifyDependentResourcesAttributes = {
   "api": {
-    "DatingApp": {
+    "daggerintheroad": {
       "GraphQLAPIEndpointOutput": "string",
       "GraphQLAPIIdOutput": "string",
       "GraphQLAPIKeyOutput": "string"
     }
   },
   "auth": {
-    "DatingApp": {
+    "daggerintheroad": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "CreatedSNSRole": "string",

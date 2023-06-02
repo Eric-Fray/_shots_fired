@@ -1,19 +1,22 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-datingapp-staging-175513-authRole",
-      "UnauthRoleArn": "arn:aws:iam::017141015220:role/amplify-datingapp-staging-175513-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::017141015220:role/amplify-datingapp-staging-175513-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-datingapp-staging-175513-deployment",
-      "UnauthRoleName": "amplify-datingapp-staging-175513-unauthRole",
-      "StackName": "amplify-datingapp-staging-175513",
-      "StackId": "arn:aws:cloudformation:us-east-1:017141015220:stack/amplify-datingapp-staging-175513/a2e7ebb0-f800-11ed-bab3-1200ef476347",
-      "AmplifyAppId": "d2l4lyxucu5rq4"
+      "AuthRoleName": "amplify-daggerintheroad-staging-231708-authRole",
+      "UnauthRoleArn": "arn:aws:iam::645261324746:role/amplify-daggerintheroad-staging-231708-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::645261324746:role/amplify-daggerintheroad-staging-231708-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-daggerintheroad-staging-231708-deployment",
+      "UnauthRoleName": "amplify-daggerintheroad-staging-231708-unauthRole",
+      "StackName": "amplify-daggerintheroad-staging-231708",
+      "StackId": "arn:aws:cloudformation:us-east-2:645261324746:stack/amplify-daggerintheroad-staging-231708/43fc06c0-0009-11ee-b49c-065bd3724173",
+      "AmplifyAppId": "d263q1qxam6w6e"
     },
     "categories": {
       "auth": {
-        "DatingApp": {}
+        "daggerintheroad": {}
+      },
+      "api": {
+        "daggerintheroad": {}
       }
     }
   }
