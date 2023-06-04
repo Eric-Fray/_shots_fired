@@ -15,13 +15,13 @@ type EagerMatch = {
     readOnlyFields: 'createdAt' | 'updatedAt';
   };
   readonly id: string;
+  readonly User1?: User | null;
+  readonly User2?: User | null;
   readonly User1ID: string;
   readonly User2ID: string;
   readonly isMatch: boolean;
-  readonly UserMatch?: User | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
-  readonly matchUserMatchId?: string | null;
 }
 
 type LazyMatch = {
@@ -30,13 +30,13 @@ type LazyMatch = {
     readOnlyFields: 'createdAt' | 'updatedAt';
   };
   readonly id: string;
+  readonly User1: AsyncItem<User | undefined>;
+  readonly User2: AsyncItem<User | undefined>;
   readonly User1ID: string;
   readonly User2ID: string;
   readonly isMatch: boolean;
-  readonly UserMatch: AsyncItem<User | undefined>;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
-  readonly matchUserMatchId?: string | null;
 }
 
 export declare type Match = LazyLoading extends LazyLoadingDisabled ? EagerMatch : LazyMatch

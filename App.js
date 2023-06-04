@@ -1,6 +1,6 @@
 import 'react-native-gesture-handler';
-import React, { useState } from 'react';
-import { View, StyleSheet, SafeAreaView, Pressable } from 'react-native'; 
+import React, { useState, useEffect } from 'react';
+import { View, StyleSheet, SafeAreaView, Pressable, ActivityIndicator } from 'react-native'; 
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import HomeScreen from './src/screens/HomeScreen';
 import MatchesScreen from './src/screens/MatchesScreen';
@@ -9,14 +9,13 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import { Amplify, Analytics } from 'aws-amplify';
+import { Amplify, Analytics, Hub } from 'aws-amplify';
 import { withAuthenticator } from 'aws-amplify-react-native';
 import config from './src/aws-exports';
+import { DataStore } from '@aws-amplify/datastore';
 
 Analytics.disable();
-
 Amplify.configure(config);
-
 
 Fontisto.loadFont().catch((error) => { console.info(error); });
 MaterialCommunityIcons.loadFont().catch((error) => { console.info(error); });
@@ -25,6 +24,40 @@ FontAwesome.loadFont().catch((error) => { console.info(error); });
 
 const App = () => {
   const [ activeScreen, setActiveScreen ] = useState('HOME');
+  const [isUserLoading, setIsUserLoading] = useState(true);
+
+  useEffect(() => {
+    const listener = Hub.listen('datastore', async hubData => {
+      const {
+        event, 
+        data,
+      } = hubData.payload;
+      if (event === 'modelSynced' && data?.model?.name === 'User'){
+        console.warn('User model has finished syncing');
+        setIsUserLoading(false);
+      };
+    });
+
+    DataStore.start();
+    return () => listener();
+  }, []);
+
+  const renderPage = () => {
+    if (activeScreen === 'HOME') {
+      return <HomeScreen isUserLoading={isUserLoading} />;
+    }
+
+    if (isUserLoading) {
+      return <ActivityIndicator style={{flex: 1}} />;
+    }
+
+    if (activeScreen === 'CHAT') {
+      return <MatchesScreen />;
+    }
+    if (activeScreen === 'PROFILE') {
+      return <ProfileScreen />;
+    }
+  };
 
   const color = "#b5b5b5";
   const activeColor = '#F76C6B';
@@ -57,9 +90,7 @@ const App = () => {
             </Pressable>
           </View>
 
-          {activeScreen === 'HOME' && <HomeScreen />}
-          {activeScreen === 'CHAT' && <MatchesScreen />}
-          {activeScreen === 'PROFILE' && <ProfileScreen />}
+          {renderPage()}
         </View>
       </SafeAreaView>
     </GestureHandlerRootView>

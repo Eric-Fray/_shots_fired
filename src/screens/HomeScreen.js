@@ -14,12 +14,15 @@ Entypo.loadFont().catch((error) => { console.info(error); });
 Ionicons.loadFont().catch((error) => { console.info(error); });
 FontAwesome.loadFont().catch((error) => { console.info(error); });
 
-const HomeScreen = () => {
+const HomeScreen = ({ isUserLoading }) => {
     const[users, setUsers] = useState([]);
     const[currentUser, setCurrentUser] = useState(null);
     const [me, setMe] = useState(null);
 
     useEffect(() => {
+        if (isUserLoading) {
+            return;
+        };
         const getCurrentUser = async () => {
             const user = await Auth.currentAuthenticatedUser();
             const dbUsers = await DataStore.query(
@@ -31,25 +34,42 @@ const HomeScreen = () => {
             setMe(dbUsers[0]);
         };
         getCurrentUser();
-    }, []);
+    }, [isUserLoading]);
+
 
     useEffect(() => {
         const fetchUsers = async () => {
-            setUsers(await DataStore.query(User));
+            const fetchedUsers = await DataStore.query(User);
+            setUsers(fetchedUsers);
         };
-        fetchUsers();
+        const checkDataStoreInitialization = async () => {
+            if (DataStore._instanceInitialized) {
+              fetchUsers();
+            } else {
+              await DataStore.start();
+              DataStore.observe(User).subscribe(() => {
+                fetchUsers();
+              });
+            };
+        }
+        checkDataStoreInitialization();
     }, []);
 
-    const onSwipeLeft = user => {
+    const onSwipeLeft = () => {
         if (!currentUser || !me){
+            console.warn('still broke');
             return;
         }
     };
+
     const onSwipeRight = async () => {
         if (!currentUser || !me){
+            console.warn('WRONG!');
+            console.warn(currentUser);
+            console.warn(me);
             return;
         }
-
+        console.warn(me);
         const myMatches = await DataStore.query(
             Match, 
             (match) => match.and(match =>[
@@ -116,7 +136,6 @@ const HomeScreen = () => {
             
         </View>
       </View>
-    //);
   )};
 
 const styles = StyleSheet.create ({
